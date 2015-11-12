@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Basic Coverter",
+  "version": "1.0",
+  "description": "Basic Converter",
+  "browser_action": {
+    "default_title": "Basic Converter by Qasim Ashraf",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+    },
+  "permissions": [
+    "tabs", "<all_urls>"
+  ]
+}
